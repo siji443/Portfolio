@@ -161,6 +161,11 @@ nav{
 .Works li img{
     width: 100%;
 }
+@media screen and (max-width: 600px) {
+    .Works li img{
+        height: auto;
+    }
+}
 
 .News h2{
     padding-top: 145px;
